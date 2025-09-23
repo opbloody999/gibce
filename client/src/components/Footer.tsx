@@ -16,9 +16,10 @@ export default function Footer({ onNavigate }: FooterProps) {
   ];
 
   const courses = [
-    'Diploma in Information Technology',
-    'Certificate in Information Technology',
-    'Office Administration & Technology'
+    'Diploma in Information Technology (1 Year)',
+    'Diploma in Information Technology (2 Year)',
+    'Certificate in Information Technology (6 Months)',
+    'Office Administration & Technology (6 Months)'
   ];
 
   const socialLinks = [
@@ -97,13 +98,13 @@ export default function Footer({ onNavigate }: FooterProps) {
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 flex-shrink-0" />
                 <span className="text-primary-foreground/80 text-sm">
-                  +92.......
+                  +92 312 2394824
                 </span>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 flex-shrink-0" />
                 <span className="text-primary-foreground/80 text-sm">
-                  info@gibce.edu.pk
+                  gibce.khp@gmail.com
                 </span>
               </div>
             </div>
