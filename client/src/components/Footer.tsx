@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Facebook, Instagram, Linkedin } from 'lucide-react';
+ import { MapPin, Phone, Mail, Facebook, Instagram, Linkedin } from 'lucide-react';
 
 interface FooterProps {
   onNavigate: (section: string) => void;
@@ -6,20 +6,19 @@ interface FooterProps {
 
 export default function Footer({ onNavigate }: FooterProps) {
   const quickLinks = [
-    { id: 'home', label: 'Home' },
     { id: 'about', label: 'About' },
-    { id: 'courses', label: 'Courses' },
     { id: 'faculty', label: 'Faculty' },
+    { id: 'courses', label: 'Courses' },
     { id: 'gallery', label: 'Gallery' },
-    { id: 'downloads', label: 'Downloads' },
     { id: 'contact', label: 'Contact' },
+    { id: 'downloads', label: 'Downloads' },
   ];
 
   const courses = [
     'Diploma in Commerce (OSP/Accounts)',
     'Diploma in Information Technology',
     'Certificate in Information Technology',
-    'Microsoft Office'
+    'Microsoft Office Applications'
   ];
 
   const socialLinks = [
@@ -53,22 +52,35 @@ export default function Footer({ onNavigate }: FooterProps) {
             </div>
           </div>
 
-          {/* Quick Links */}
+          {/* Quick Links - 2 columns */}
           <div>
             <h3 className="text-lg font-heading font-semibold mb-4">Quick Links</h3>
-            <ul className="space-y-2">
-              {quickLinks.map((link) => (
-                <li key={link.id}>
-                  <button
-                    onClick={() => onNavigate(link.id)}
-                    className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-                    data-testid={`link-footer-${link.id}`}
-                  >
-                    {link.label}
-                  </button>
+            <div className="grid grid-cols-2 gap-x-6">
+              <ul className="space-y-2">
+                {/* First column */}
+                <li>
+                  <button onClick={() => onNavigate('about')} className="text-primary-foreground/80 hover:text-primary-foreground transition-colors" data-testid="link-footer-about">About</button>
                 </li>
-              ))}
-            </ul>
+                <li>
+                  <button onClick={() => onNavigate('courses')} className="text-primary-foreground/80 hover:text-primary-foreground transition-colors" data-testid="link-footer-courses">Courses</button>
+                </li>
+                <li>
+                  <button onClick={() => onNavigate('contact')} className="text-primary-foreground/80 hover:text-primary-foreground transition-colors" data-testid="link-footer-contact">Contact</button>
+                </li>
+              </ul>
+              <ul className="space-y-2">
+                {/* Second column */}
+                <li>
+                  <button onClick={() => onNavigate('faculty')} className="text-primary-foreground/80 hover:text-primary-foreground transition-colors" data-testid="link-footer-faculty">Faculty</button>
+                </li>
+                <li>
+                  <button onClick={() => onNavigate('gallery')} className="text-primary-foreground/80 hover:text-primary-foreground transition-colors" data-testid="link-footer-gallery">Gallery</button>
+                </li>
+                <li>
+                  <button onClick={() => onNavigate('downloads')} className="text-primary-foreground/80 hover:text-primary-foreground transition-colors" data-testid="link-footer-downloads">Downloads</button>
+                </li>
+              </ul>
+            </div>
           </div>
 
           {/* Programs */}
