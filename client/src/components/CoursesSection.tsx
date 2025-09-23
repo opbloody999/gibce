@@ -31,6 +31,16 @@ export default function CoursesSection({ onCourseSelect }: CoursesSectionProps) 
       color: 'bg-blue-50 text-blue-700 border-blue-200'
     },
     {
+      id: 'dit2',
+      title: 'Diploma in Information Technology (DIT 2 Year)',
+      duration: '2 Years',
+      students: '100+ Enrolled',
+      description: 'Extended diploma program with advanced modules in IT, software development, networking, and project work for deeper expertise.',
+      subjects: ['Advanced Programming', 'Web Development', 'Database Systems', 'Network Security', 'IT Project'],
+      icon: Computer,
+      color: 'bg-cyan-50 text-cyan-700 border-cyan-200'
+    },
+    {
       id: 'cit',
       title: 'Certificate in Information Technology',
       duration: '6 Months',
@@ -65,7 +75,7 @@ export default function CoursesSection({ onCourseSelect }: CoursesSectionProps) 
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {courses.map((course) => (
             <Card 
               key={course.id} 
