@@ -21,43 +21,53 @@ interface CoursesSectionProps {
 export default function CoursesSection({ onCourseSelect }: CoursesSectionProps) {
   const courses: Course[] = [
     {
+      id: 'dcom',
+  title: 'Diploma in Commerce (OSP/Accounts)',
+      duration: '2 Years',
+      students: '150+ Enrolled',
+      description: 'Diploma in Commerce with specialization in Office Secretarial Practice or Accounts, focusing on business, accounting, and office management skills.',
+      subjects: ['Business Math', 'Accounting', 'Office Practice', 'Economics', 'Commercial Geography'],
+      icon: Building2,
+      color: 'bg-yellow-50 text-yellow-700 border-yellow-200'
+    },
+    {
       id: 'dit',
-      title: 'Diploma in Information Technology',
+  title: 'Diploma in Information Technology',
       duration: '1 Year',
       students: '120+ Enrolled',
-      description: 'Comprehensive program covering computer programming, web development, database management, and networking fundamentals.',
+      description: 'Diploma in Information Technology covering computer programming, web development, database management, and networking fundamentals.',
       subjects: ['Programming', 'Web Development', 'Database Management', 'Computer Networks', 'Software Engineering'],
       icon: Computer,
       color: 'bg-blue-50 text-blue-700 border-blue-200'
     },
     {
       id: 'dit2',
-      title: 'Diploma in Information Technology (DIT 2 Year)',
+  title: 'Diploma in Information Technology (2 Year)',
       duration: '2 Years',
       students: '100+ Enrolled',
-      description: 'Extended diploma program with advanced modules in IT, software development, networking, and project work for deeper expertise.',
+      description: 'Comprehensive 2-year DIT program with advanced modules in IT, software development, networking, and project work.',
       subjects: ['Advanced Programming', 'Web Development', 'Database Systems', 'Network Security', 'IT Project'],
       icon: Computer,
       color: 'bg-cyan-50 text-cyan-700 border-cyan-200'
     },
     {
       id: 'cit',
-      title: 'Certificate in Information Technology',
+  title: 'Certificate in Information Technology',
       duration: '6 Months',
       students: '80+ Enrolled',
-      description: 'Intensive certificate course focusing on essential IT skills including computer operation, office applications, and basic programming.',
+      description: 'Certificate in Information Technology focusing on essential IT skills including computer operation, office applications, and basic programming.',
       subjects: ['Computer Basics', 'MS Office', 'Internet & Email', 'Basic Programming', 'Computer Maintenance'],
       icon: FileText,
       color: 'bg-green-50 text-green-700 border-green-200'
     },
     {
-      id: 'oat',
-      title: 'Office Administration & Technology',
-      duration: '1 Year',
+      id: 'msoffice',
+  title: 'Microsoft Office',
+      duration: '3 Months',
       students: '60+ Enrolled',
-      description: 'Professional program for office management skills, business communication, and modern office technology applications.',
-      subjects: ['Business Communication', 'Office Management', 'Accounting', 'Computer Applications', 'Professional Ethics'],
-      icon: Building2,
+      description: 'Short course on Microsoft Office applications including Word, Excel, PowerPoint, and essential office productivity tools.',
+      subjects: ['MS Word', 'MS Excel', 'MS PowerPoint', 'Office Productivity'],
+      icon: FileText,
       color: 'bg-purple-50 text-purple-700 border-purple-200'
     }
   ];
