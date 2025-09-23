@@ -18,7 +18,6 @@ export default function Footer({ onNavigate }: FooterProps) {
   const courses = [
     'Diploma in Commerce (OSP/Accounts)',
     'Diploma in Information Technology',
-    'Diploma in Information Technology (2 Year)',
     'Certificate in Information Technology',
     'Microsoft Office'
   ];
