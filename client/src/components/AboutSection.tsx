@@ -5,7 +5,7 @@ export default function AboutSection() {
   const achievements = [
     { icon: Calendar, title: 'Established', value: '1995', description: 'Serving education for over 25 years' },
     { icon: Users, title: 'Students Graduated', value: '5000+', description: 'Alumni in IT, business, and government sectors' },
-  { icon: BookOpen, title: 'Programs Offered', value: '5', description: 'Diploma in Commerce, Diploma in IT, CI, MS Office' },
+  { icon: BookOpen, title: 'Programs Offered', value: '5', description: 'D.COM, DIT, CIT, MS Office' },
     { icon: Award, title: 'Free Certification', value: '100%', description: 'All students receive free certificates' },
   ];
 
