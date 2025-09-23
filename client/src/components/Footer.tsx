@@ -16,14 +16,15 @@ export default function Footer({ onNavigate }: FooterProps) {
   ];
 
   const courses = [
-    'Diploma in Information Technology (1 Year)',
+    'Diploma in Commerce (OSP/Accounts)',
+    'Diploma in Information Technology',
     'Diploma in Information Technology (2 Year)',
-    'Certificate in Information Technology (6 Months)',
-    'Office Administration & Technology (6 Months)'
+    'Certificate in Information Technology',
+    'Microsoft Office'
   ];
 
   const socialLinks = [
-    { icon: Facebook, url: '#', label: 'Facebook' },
+    { icon: Facebook, url: 'https://share.google/HJKzggIRXvhyNhE89', label: 'Facebook' },
     { icon: Instagram, url: '#', label: 'Instagram' },
     { icon: Linkedin, url: '#', label: 'LinkedIn' }
   ];
