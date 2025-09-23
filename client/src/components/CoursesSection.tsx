@@ -62,7 +62,7 @@ export default function CoursesSection({ onCourseSelect }: CoursesSectionProps) 
     },
     {
       id: 'msoffice',
-  title: 'Microsoft Office',
+  title: 'Microsoft Office Applications',
       duration: '3 Months',
       students: '60+ Enrolled',
       description: 'Short course on Microsoft Office applications including Word, Excel, PowerPoint, and essential office productivity tools.',
