@@ -101,12 +101,7 @@ export default function GallerySection() {
                   alt={image.alt}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-300 flex items-end">
-                  <div className="p-4 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                    <h3 className="font-semibold text-lg">{image.title}</h3>
-                    <p className="text-sm text-gray-200">{image.category}</p>
-                  </div>
-                </div>
+                {/* Removed popup text overlay */}
               </div>
             </Card>
           ))}
@@ -133,10 +128,7 @@ export default function GallerySection() {
                 className="max-w-full max-h-[80vh] object-contain rounded-lg"
                 onClick={(e) => e.stopPropagation()}
               />
-              <div className="text-white text-center mt-4">
-                <h3 className="text-xl font-semibold">{selectedImage.title}</h3>
-                <p className="text-gray-300">{selectedImage.category}</p>
-              </div>
+              {/* Removed modal popup text */}
             </div>
           </div>
         )}
