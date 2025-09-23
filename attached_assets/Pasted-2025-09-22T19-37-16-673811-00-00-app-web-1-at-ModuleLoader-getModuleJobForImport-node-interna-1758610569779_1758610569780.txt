@@ -1,0 +1,33 @@
+2025-09-22T19:37:16.673811+00:00 app[web.1]:     at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:264:38)
+2025-09-22T19:37:16.673811+00:00 app[web.1]:     at ModuleJob._link (node:internal/modules/esm/module_job:168:49) {
+2025-09-22T19:37:16.673812+00:00 app[web.1]:   code: 'ERR_MODULE_NOT_FOUND'
+2025-09-22T19:37:16.673812+00:00 app[web.1]: }
+2025-09-22T19:37:16.673812+00:00 app[web.1]: 
+2025-09-22T19:37:16.673813+00:00 app[web.1]: Node.js v20.19.5
+2025-09-22T19:37:16.717111+00:00 heroku[web.1]: Process exited with status 1
+2025-09-22T19:37:16.745757+00:00 heroku[web.1]: State changed from starting to crashed
+2025-09-22T19:38:29.943230+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=gibce-8a99fbf453bb.herokuapp.com request_id=a9dd1f51-c144-4695-5d2c-289e647cda51 fwd="" dyno= connect=0ms service=0ms status=503 bytes=567 protocol=http1.1 tls=true tls_version=unknown
+2025-09-22T19:39:43.083685+00:00 heroku[router]: sock=client at=warning code=H27 desc="Client Request Interrupted" method=GET path="/favicon.ico" host=gibce-8a99fbf453bb.herokuapp.com request_id=b7bf1cf7-66ce-aa01-63dd-799b06798baa fwd="" dyno= connect=0ms service=0ms status=499 bytes=567 protocol=http1.1 tls=true tls_version=unknown
+2025-09-22T19:49:01.559715+00:00 heroku[web.1]: State changed from crashed to starting
+2025-09-22T19:49:07.990787+00:00 heroku[web.1]: Starting process with command `node dist/index.js`
+2025-09-22T19:49:08.754803+00:00 heroku[web.1]: Process exited with status 1
+2025-09-22T19:49:08.707368+00:00 app[web.1]: node:internal/modules/esm/resolve:873
+2025-09-22T19:49:08.707401+00:00 app[web.1]:   throw new ERR_MODULE_NOT_FOUND(packageName, fileURLToPath(base), null);
+2025-09-22T19:49:08.707404+00:00 app[web.1]:         ^
+2025-09-22T19:49:08.707404+00:00 app[web.1]: 
+2025-09-22T19:49:08.707407+00:00 app[web.1]: Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'vite' imported from /app/dist/index.js
+2025-09-22T19:49:08.707409+00:00 app[web.1]:     at packageResolve (node:internal/modules/esm/resolve:873:9)
+2025-09-22T19:49:08.707409+00:00 app[web.1]:     at moduleResolve (node:internal/modules/esm/resolve:946:18)
+2025-09-22T19:49:08.707410+00:00 app[web.1]:     at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+2025-09-22T19:49:08.707410+00:00 app[web.1]:     at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:708:12)
+2025-09-22T19:49:08.707410+00:00 app[web.1]:     at #cachedDefaultResolve (node:internal/modules/esm/loader:657:25)
+2025-09-22T19:49:08.707410+00:00 app[web.1]:     at ModuleLoader.resolve (node:internal/modules/esm/loader:640:38)
+2025-09-22T19:49:08.707411+00:00 app[web.1]:     at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:264:38)
+2025-09-22T19:49:08.707411+00:00 app[web.1]:     at ModuleJob._link (node:internal/modules/esm/module_job:168:49) {
+2025-09-22T19:49:08.707413+00:00 app[web.1]:   code: 'ERR_MODULE_NOT_FOUND'
+2025-09-22T19:49:08.707414+00:00 app[web.1]: }
+2025-09-22T19:49:08.707414+00:00 app[web.1]: 
+2025-09-22T19:49:08.707418+00:00 app[web.1]: Node.js v20.19.5
+2025-09-22T19:49:08.776506+00:00 heroku[web.1]: State changed from starting to crashed
+Disconnected from log stream. There may be events happening that you do not see here! Attempting to reconnect...
+Connection to log stream failed. Please try again later.

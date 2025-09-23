@@ -1,0 +1,68 @@
+
+
+**Create a modern, responsive, and professional educational website** for
+**Government Institute of Business & Commercial Education (GIBCE), Khairpur Mir’s, Sindh, Pakistan.**
+
+### Design Guidelines
+
+* **Color palette:** Primary: navy blue `#1E3A8A`; Accent: gold `#D4AF37`; Neutral: white `#FFFFFF`.
+* **Fonts:** Google Fonts → Poppins (headings), Open Sans (body). Use consistent font sizing.
+* **Layout:** Clean, minimal, section-based single-page site. Use plenty of white space.
+* **Animations:** Subtle only (fade-in, smooth scroll). Avoid rainbow, flashing, or bounce effects.
+* **Responsiveness:** Must look good on desktop, tablet, and mobile.
+* **Navigation:** Sticky top navbar with links to Home, About, Courses, Admission, Downloads, Contact.
+
+### Content Sections
+
+1. **Hero Section**
+
+   * Background image (placeholder campus/students).
+   * Welcome text + institution name.
+   * Call-to-action button (“Apply Now”).
+
+2. **About Section**
+
+   * Short history and mission.
+   * Highlights / achievements.
+
+3. **Courses Section**
+
+   * Grid layout with 3–4 cards (DIT, CIT, OAT).
+   * Each card: course name, duration, short description.
+
+4. **Faculty/Staff Section**
+
+   * Cards with photo, name, designation, short bio.
+
+5. **Gallery Section**
+
+   * Responsive grid gallery (placeholder images).
+   * Simple hover zoom (no rainbow borders).
+
+6. **Downloads Section**
+
+   * Cards/list for admission form, syllabus, templates, etc.
+
+7. **Testimonials / Achievements**
+
+   * Simple carousel or 3 cards with student photo + text.
+
+8. **Contact Section**
+
+   * Contact form (name, email, message).
+   * Google Maps embed.
+   * Social media links.
+
+9. **Footer**
+
+   * Quick links, contact info, copyright.
+
+### Technical Notes
+
+* Use **plain HTML5, CSS3, JavaScript** (no frameworks unless explicitly needed).
+* Keep **CSS clean and professional** — flat design, no rainbow/gradient overload.
+* Include **preloader animation** (simple spinner, single color).
+* Add **back-to-top button** (small, bottom-right, minimal style).
+* Ensure **accessibility** (alt text, proper contrast, keyboard navigation).
+* Use **placeholder text/images** where content isn’t available.
+
